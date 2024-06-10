@@ -1,0 +1,25 @@
+{
+  "id": "degenesis-system-usage",
+  "title": "Degenesis System Usage",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "journal",
+      "label": "Journal",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degenesis",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://github.com/Calion16/DEGENESIS-Systeme-Usage/releases/download/1.0.0/module.json",
+  "download": "https://github.com/Calion16/DEGENESIS-Systeme-Usage/releases/download/1.0.0/module.zip"
+}
